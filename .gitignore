@@ -1,0 +1,4 @@
+# Build output
+*.dll
+# Written by gen_slots.py from the mingw headers
+slots.h

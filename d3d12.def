@@ -1,0 +1,14 @@
+LIBRARY d3d12.dll
+EXPORTS
+    GetBehaviorValue = shim_GetBehaviorValue @100
+    D3D12CreateDevice @101
+    D3D12GetDebugInterface @102
+    D3D12CoreCreateLayeredDevice = shim_D3D12CoreCreateLayeredDevice @103
+    D3D12CoreGetLayeredDeviceSize = shim_D3D12CoreGetLayeredDeviceSize @104
+    D3D12CoreRegisterLayers = shim_D3D12CoreRegisterLayers @105
+    D3D12CreateRootSignatureDeserializer = shim_D3D12CreateRootSignatureDeserializer @106
+    D3D12CreateVersionedRootSignatureDeserializer = shim_D3D12CreateVersionedRootSignatureDeserializer @107
+    D3D12EnableExperimentalFeatures @108
+    D3D12SerializeRootSignature = shim_D3D12SerializeRootSignature @109
+    D3D12SerializeVersionedRootSignature = shim_D3D12SerializeVersionedRootSignature @110
+    D3D12GetInterface @111
